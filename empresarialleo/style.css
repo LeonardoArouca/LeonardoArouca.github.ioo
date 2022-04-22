@@ -1,0 +1,174 @@
+/* Minhas cores */
+:root{
+ background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg)
+  
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: var(--gradientedefundo); 
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;   
+}
+
+
+img{
+    margin: 190px auto;        
+    width: 20%;
+    display: block;
+    border-radius: 90%;
+
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    border: none;
+    padding: 22px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: large;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);;
+}
+h1 { 
+
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding: 22px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+h3 {
+        font-family: sans-serif,Tahoma,Verdana;
+        float: left;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-size: 40px;
+    }
+
+    
+    .container { text-align: center;
+        text-shadow: 2px 2px 5px red;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 70px;
+    
+    }
+    .contato {
+        font-size: 20px;
+        text-align: center;
+        border-radius: 25px;
+        border: 2px solid #cf0c0c;
+        padding: 25px; 
+        width: 250px;
+        height: 255px; 
+        margin-top: 120px;
+        
+    
+    }
+    .cntt {
+        text-align: center;
+        margin-top: -150px;  
+    }
+
+    .carro {
+
+        margin-left: -800px;
+        width: 2550px;
+        margin-right: 900px;
+        margin-top: -90px;
+        border-radius: 5%;
+    }
+    .textos
+    {
+        margin-top: -100px;
+    }
+.sobre{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.butao  {
+    
+    color: #FFF;
+    margin-top: 50px;
+   
+  }
+.rua {
+    width: 1500px;
+    margin-left: -275px;
+}
+.novidades {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+}
+.nossos {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+    
+}
+.foto1 {
+    margin-left: -600px;
+    width: 60pc;
+    margin-top: 160px;
+}
+.cont {
+    margin-right: -600px;
+    width: 60pc;
+    margin-top: -1210px;
+    
+}
+.tabela {
+    margin-left: -1200px;
+    font-size: 25px;
+    margin-top: -1000px;
+}
